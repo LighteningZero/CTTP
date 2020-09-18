@@ -22,7 +22,7 @@
     1. **BROADCAST** 模式（广播式信息传输）
         1. 在 **BROADCAST** 模式下，报文标记位必须为 `BDCAST` 。
         1. 在 **BROADCAST** 模式下，信息会被广播给所有人（理论上），所以不需要指定 `TO` 字段。
-        1. 同 3.i.d 。
+        1. 同 3.i.d (3.1.4)。
         1. **BROADCAST** 模式下的发送示例：
             ```text
             CTTP / 1.0  BDCAST
@@ -36,7 +36,7 @@
         1. **REQUEST** 模式的对应响应模式为　**RESPONSE** 模式，其又分为 **OFFICAL** 模式（权威回答）和 **UNOFFICAL** 模式（非权威回答）。
            1. 在 **OFFICAL** 模式下，报文标记位必须为 `RESOFF` 。
            1. 在 **UNOFFICAL** 模式下，报文标记位必须为 `RESUNOFF` 。
-        1. 同 3.i.d 。
+        1. 同 3.i.d (3.1.4)。
         1. 在 **REQUEST** 模式下，必须有 `TO` 字段，标识接收者（权威的，将发送 **OFFICAL RESPONSE** 权威回答的人）。若无法确定指定的人，即无法指定　`TO` 字段，请使用　**BROADCAST** 模式。
         1. 可以指定　`PROXY` 字段，标识需要经过的特定的中间人。
         1. **REQUEST** 模式下的发送示例：
