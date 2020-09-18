@@ -1,6 +1,6 @@
 # CTTP Classroom Tape Transfer Protocol - Chapter 5 
 
-tags： CTTP LighteningZero CTTP-v1.0
+Tags： CTTP LighteningZero CTTP-v1.0
 
 ---
 
