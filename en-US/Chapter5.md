@@ -27,27 +27,27 @@ Tags： CTTP LighteningZero CTTP-v1.0
         
         7. `ERRNO` table is shown as below:
         
-        | Value | Description                 |
-        | :---: | :-------------------------- |
-        |  100  | Continue                    |
-        |  101  | Switching Protocol          |
-        |  200  | OK                          |
-        |  201  | Done                        |
-        |  202  | Accepted                    |
-        |  300  | Redirect                    |
-        |  301  | Temporary Edirect           |
-        |  400  | Bad Request                 |
-        |  401  | Not Acceptable              |
-        |  402  | Payment Reqiured            |
-        |  403  | Payload not Acceptable      |
-        |  404  | Not Found                   |
-        |  405  | Cannot Understand           |
-        |  41X  | Proxy-node Error. See 4.4.8 |
-        |  421  | Lack of Paper               |
-        |  422  | I'm a teacher               |
-        |  423  | Attachemnt Not Found        |
-        |  500  | Responser Error             |
-        |  501  | Task Failed                 |
-        |  502  | Not Ready                   |
-        |  503  | Temporarily Not Available   |
-        |  504  | I don't know                |
+        | Value | Description                          |
+        | :---: | :----------------------------------- |
+        |  100  | Continue                             |
+        |  101  | Switching Protocol                   |
+        |  200  | OK                                   |
+        |  201  | Done                                 |
+        |  202  | Accepted                             |
+        |  300  | Redirect                             |
+        |  301  | Temporary Edirect                    |
+        |  400  | Bad Request                          |
+        |  401  | Not Acceptable                       |
+        |  402  | Payment Reqiured                     |
+        |  403  | Payload not Acceptable               |
+        |  404  | Not Found                            |
+        |  405  | Cannot Understand                    |
+        |  41X  | Proxy-node Error (See 4.4.8(4.iv.h)) |
+        |  421  | Lack of Paper                        |
+        |  422  | I'm a teacher                        |
+        |  423  | Attachemnt Not Found                 |
+        |  500  | Responser Error                      |
+        |  501  | Task Failed                          |
+        |  502  | Not Ready                            |
+        |  503  | Temporarily Not Available            |
+        |  504  | I don't know                         |
