@@ -5,7 +5,9 @@ Tags： CTTP LighteningZero CTTP-v1.0
 ---
 
 5. Receiver
+
     1. **P2P** Mode (Peer-to-peer Message Transfer)
+
         1. Message with markword `P2PSND` should be recognized as sending method in **P2P** mode. If the markword is `P2PRST`, it should be recognized as a reply method message in `P2P` Mode. On this kind of message, please see 5.2
         
         1. When being sure that that information of `TO` field fits yourself, please recognize yourself as the **receiver**. Or otherwise you should recognize yourself as a **proxy-node**. (See 4.1)
