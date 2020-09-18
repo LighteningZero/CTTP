@@ -2,9 +2,7 @@
 
 标签： CTTP LighteningZero CTTP-v1.0
 
----
-
-1. 发送方
+3. 发送方
     1. P2P 模式（点对点信息传输）
         1. 为正规起见，P2P（点对点信息传输）不可以写作“PTP”或“D2D”等。
         2. 在 P2P 模式发送消息时，报文的标记位必须为`P2PSND`。
@@ -16,6 +14,6 @@
             CTTP / 1.0  P2PSND
             TO ZTL
             FROM SLC
-            
+
             你好，这是内容。
             ```
