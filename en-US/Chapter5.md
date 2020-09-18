@@ -26,6 +26,7 @@ Tags： CTTP LighteningZero CTTP-v1.0
         6. When replying normally, you should set the markword as `P2PRST` or `P2PSND`. It is suggested to use markword `P2PRST` in a reply message.
         
         7. `ERRNO` table is shown as below:
+
             | Value | Description                           |
             | :---: | :------------------------------------ |
             |  100  | Continue                              |
