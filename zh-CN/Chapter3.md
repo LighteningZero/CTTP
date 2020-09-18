@@ -50,7 +50,7 @@
 
         2. 在 **REQUEST** 模式下，报文标记位必须为 `REQ` 。
 
-        3. **REQUEST** 模式的对应响应模式为　**RESPONSE** 模式，其又分为 **OFFICIAL** 模式（权威回答）和 **UNOFFICIAL** 模式（非权威回答）。
+        3. **REQUEST** 模式的对应响应模式为 **RESPONSE** 模式，其又分为 **OFFICIAL** 模式（权威回答）和 **UNOFFICIAL** 模式（非权威回答）。
 
            1. 在 **OFFICIAL** 模式下，报文标记位必须为 `RESOFF` 。
 
@@ -58,9 +58,9 @@
 
         4. 同 3.i.d (3.1.4)。
 
-        5. 在 **REQUEST** 模式下，必须有 `TO` 字段，标识接收者（权威的，将发送 **OFFICIAL RESPONSE** 权威回答的人）。若无法确定指定的人，即无法指定　`TO` 字段，请使用　**BROADCAST** 模式。
+        5. 在 **REQUEST** 模式下，必须有 `TO` 字段，标识接收者（权威的，将发送 **OFFICIAL RESPONSE** 权威回答的人）。若无法确定指定的人，即无法指定 `TO` 字段，请使用 **BROADCAST** 模式。
 
-        6. 可以指定　`PROXY` 字段，标识需要经过的特定的中间人。
+        6. 可以指定 `PROXY` 字段，标识需要经过的特定的中间人。
 
         7. **REQUEST** 模式下的发送示例：
 
