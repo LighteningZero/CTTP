@@ -5,8 +5,8 @@ Tags： CTTP LighteningZero CTTP-v1.0
 ---
 
 5. Receiver
-    1. P2P Mode (Peer-to-peer Message Transfer)
-        1. Message with markword `P2PSND` should be recognized as sending method in P2P mode. If the markword is `P2PRST`, it should be recognized as a reply method message in `P2P` Mode. On this kind of message, please see 5.2
+    1. **P2P** Mode (Peer-to-peer Message Transfer)
+        1. Message with markword `P2PSND` should be recognized as sending method in **P2P** mode. If the markword is `P2PRST`, it should be recognized as a reply method message in `P2P` Mode. On this kind of message, please see 5.2
         
         1. When being sure that that information of `TO` field fits yourself, please recognize yourself as the **receiver**. Or otherwise you should recognize yourself as a **proxy-node**. (See 4.1)
         
@@ -25,27 +25,27 @@ Tags： CTTP LighteningZero CTTP-v1.0
         
         1. `ERRNO` table is shown as below:
         
-        | Value | Description |
-        | :---: | :--- |
-        | 100 | Continue |
-        | 101 | Switching Protocol |
-        | 200 | OK |
-        | 201 | Done |
-        | 202 | Accepted |
-        | 300 | Redirect |
-        | 301 | Temporary Edirect |
-        | 400 | Bad Request |
-        | 401 | Not Acceptable |
-        | 402 | Payment Reqiured |
-        | 403 | Payload not Acceptable |
-        | 404 | Not Found |
-        | 405 | Cannot Understand |
-        | 41X | Proxy-node Error. See 4.4.8 |
-        | 421 | Lack of Paper |
-        | 422 | I'm a teacher |
-        | 423 | Attachemnt Not Found |
-        | 500 | Responser Error |
-        | 501 | Task Failed |
-        | 502 | Not Ready |
-        | 503 | Temporarily Not Available |
-        | 504 | I don't know |
+        | Value | Description                 |
+        | :---: | :-------------------------- |
+        |  100  | Continue                    |
+        |  101  | Switching Protocol          |
+        |  200  | OK                          |
+        |  201  | Done                        |
+        |  202  | Accepted                    |
+        |  300  | Redirect                    |
+        |  301  | Temporary Edirect           |
+        |  400  | Bad Request                 |
+        |  401  | Not Acceptable              |
+        |  402  | Payment Reqiured            |
+        |  403  | Payload not Acceptable      |
+        |  404  | Not Found                   |
+        |  405  | Cannot Understand           |
+        |  41X  | Proxy-node Error. See 4.4.8 |
+        |  421  | Lack of Paper               |
+        |  422  | I'm a teacher               |
+        |  423  | Attachemnt Not Found        |
+        |  500  | Responser Error             |
+        |  501  | Task Failed                 |
+        |  502  | Not Ready                   |
+        |  503  | Temporarily Not Available   |
+        |  504  | I don't know                |
