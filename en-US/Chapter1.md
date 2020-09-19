@@ -1,4 +1,4 @@
-# CTTP Classroom Tape Transfer Protocol - Chapter 1 
+# CTTP Classroom Tape Transfer Protocol - Chapter 1
 
 Tags： CTTP LighteningZero CTTP-v1.0
 
