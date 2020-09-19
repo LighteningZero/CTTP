@@ -11,7 +11,7 @@ Tags： CTTP LighteningZero CTTP-v1.0
     1. To show which protocol you are using and it's version, the message should begin with:
 
         ```text
-        CTTP / 1.0
+        CTTP/1.0
         ```
 
     1. We all know the inconvenience of of **TCP/IP**. So CTTP would not be based on **TCP/IP**.
@@ -19,5 +19,5 @@ Tags： CTTP LighteningZero CTTP-v1.0
     1. We also need a markword to represent the message's type, e.g.
 
         ```text
-        CTTP / 1.0  P2PSND
+        CTTP/1.0  P2PSND
         ```
