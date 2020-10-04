@@ -41,10 +41,39 @@ Tags： CTTP LighteningZero CTTP-v1.0
         1. Se 3.1.4 (3.I.d).
 
         1. Example
-        
+
             ```text
             CTTP/1.0 BDCAST
             FROM SLC
 
             Hello everyone!
+            ```
+
+    1. **REQUEST** mode
+
+        1. In most conditions, we send tapes for asking questions, and the question doesn't need to be answered by a specific person, but needs an official response.
+
+        1. In **REQUEST** mode, the markword must be `REQ`.
+
+        1. The corresponding mode to **REQUEST** mode is **RESPONSE** mode. Which is divided into **OFFICIAL** mode ans **UNOFFICIAL** mode.
+
+            1. In **OFFICIAL** mode, the markword must be `RESOFF`.
+
+            1. In **UNOFFICIAL** mode, the markword must be `RESUNOFF`.
+
+        1. There must be the field `FROM` for responding.
+
+        1. There must be the field `TO` to mark the receiver who will give you an **OFFICIAL RESPONSE**. if you don't know who is receiving or you can;t declare the field `TO`, please use **BROADCAST** mode (See 3.2 (3.II)).
+
+        1. You can declare the field `PROXY` to mark who will be the proxy-node that passes the tape.
+
+        1. Example
+
+            ```text
+            CTTP/1.0 REQ
+            TO HHR
+            FROM SLC
+            PROXY ZTL YYN CZH
+
+            What is the homework for today?
             ```
