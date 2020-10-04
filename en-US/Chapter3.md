@@ -6,7 +6,7 @@ Tags： CTTP LighteningZero CTTP-v1.0
 
 3. Sender
 
-    1. **P2P** (peer-to-peer transfer)
+    1. **P2P** (peer-to-peer transfer) mode
 
         1. To be up to standard, `P2P` should not be write as `PTP` or `D2D` ans so on.
 
@@ -30,4 +30,21 @@ Tags： CTTP LighteningZero CTTP-v1.0
             FROM SLC
 
             This is the content.
+            ```
+
+    1. **BROADCAST** mode
+
+        1. In **BROADCAST** mode, the markword must be `BDCAST`.
+
+        1. In **BROADCAST** mode, the message will be send to everyone (in theory), so the `TO` field mustn't be declared.
+
+        1. Se 3.1.4 (3.I.d).
+
+        1. Example
+        
+            ```text
+            CTTP/1.0 BDCAST
+            FROM SLC
+
+            Hello everyone!
             ```
