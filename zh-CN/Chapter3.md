@@ -20,7 +20,7 @@
         1. **P2P** 模式下的发送示例：
 
             ```text
-            CTTP / 1.0  P2PSND
+            CTTP/1.0  P2PSND
             TO ZTL
             FROM SLC
 
@@ -38,7 +38,7 @@
         1. **BROADCAST** 模式下的发送示例：
 
             ```text
-            CTTP / 1.0  BDCAST
+            CTTP/1.0  BDCAST
             FROM SLC
 
             大家好
