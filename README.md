@@ -1,5 +1,5 @@
 # CTTP
-Classroom Tape Transfering Protocol
+Classroom Tape Transferring Protocol
 
 教室纸条文本传输协议
 
