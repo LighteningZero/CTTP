@@ -38,7 +38,7 @@ Tags： CTTP LighteningZero CTTP-v1.0
 
         1. In **BROADCAST** mode, the message will be sent to everyone (in theory), so the `TO` field mustn't be declared.
 
-        1. Se 3.1.4 (3.I.d).
+        1. See 3.1.4 (3.I.d).
 
         1. Example
 
